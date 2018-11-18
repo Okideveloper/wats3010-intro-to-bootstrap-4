@@ -9,11 +9,20 @@ p {
     background-color: #CDC9C9;
     background-repeat: no-repeat;
 }
+
 h1 {
     text-align: center;
     font-family: Comic Sans MS, cursive, sans-serif;
     }
+.footer-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    }
     
+.footer-item-flex {
+    flex: 0 1 auto;
+    }
 
 
 
