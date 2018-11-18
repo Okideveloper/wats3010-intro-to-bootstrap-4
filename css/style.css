@@ -1,19 +1,28 @@
 /* Site Styles Go Here */
+
+h2 {
+    text-align: center;
+    border-style: double;
+    }
+
+
 h3  {
-    color: Black;
     font-weight: bold;
-}
+    text-shadow: 3px 3px 2px #348E1C;
+    }
 
 p {
+    border: 1px solid black;
+    background-color: lightblue;
+    font-family: comic Sans MS, cursive, sans-serif;
     color: black;
-    background-color: #CDC9C9;
-    background-repeat: no-repeat;
-}
+    }
 
 h1 {
     text-align: center;
-    font-family: Comic Sans MS, cursive, sans-serif;
+    font-family: comic Sans MS, cursive, sans-serif;
     }
+    
 .footer-flex {
     display: flex;
     flex-direction: row;
