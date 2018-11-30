@@ -1,15 +1,10 @@
 /* Site Styles Go Here */
 
-h2 {
-    text-align: center;
-    border-style: double;
-    }
-
-
 h3  {
     font-weight: bold;
     text-shadow: 3px 3px 2px #348E1C;
     text-align: center;
+    border-style: 2px double;
     }
 
 p {
@@ -22,18 +17,31 @@ p {
 h1 {
     text-align: center;
     font-family: comic Sans MS, cursive, sans-serif;
+    border-style: double;
     }
     
+
+gallery1 {
+    width: 100%;
+    }
+
+a  {
+    color: black;
+}
+
 .footer-flex {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-shrink: 0;
     }
     
 .footer-item-flex {
     flex: 0 1 auto;
     background-color: green;
     }
+    
+
 
 
 
